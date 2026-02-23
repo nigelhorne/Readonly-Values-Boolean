@@ -93,7 +93,7 @@ L<http://deps.cpantesters.org/?module=Readonly::Values::Boolean>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2025 Nigel Horne.
+Copyright 2027 Nigel Horne.
 
 Usage is subject to licence terms.
 
