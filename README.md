@@ -54,7 +54,7 @@ You can also look for information at:
 
 # LICENSE AND COPYRIGHT
 
-Copyright 2027 Nigel Horne.
+Copyright 2026 Nigel Horne.
 
 Usage is subject to licence terms.
 
