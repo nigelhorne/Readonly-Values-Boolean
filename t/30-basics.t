@@ -40,7 +40,7 @@ subtest 'Booleans hash' => sub {
 	throws_ok { $booleans{'ON'} = 99 } qr/Modification of a read-only value/,
 		'%booleans is readonly';
 	# Test expected number of entries
-	is(scalar keys %booleans, 10, '%booleans has 10 entries');
+	is(scalar keys %booleans, 16, '%booleans has 16 entries');
 };
 
 # Test exports
@@ -81,8 +81,8 @@ subtest 'Edge cases' => sub {
 	# Test empty string
 	ok(!exists $booleans{''}, 'Empty string key returns false');
 
-	# Test case variations that should not exist
-	ok(!exists $booleans{'False'}, 'Capitalized abbreviations do not exist');
+	# Test case variations that should exist
+	ok(exists $booleans{'False'}, 'Capitalized abbreviations do not exist');
 };
 
 done_testing();

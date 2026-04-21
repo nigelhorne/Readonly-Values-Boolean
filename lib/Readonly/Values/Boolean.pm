@@ -31,14 +31,20 @@ Readonly::Enum our ($FALSE, $TRUE) => 0;
 
 Readonly::Hash our %booleans => (
 	'off' => $FALSE,
+	'Off' => $FALSE,
 	'false' => $FALSE,
+	'False' => $FALSE,
 	'FALSE' => $FALSE,
 	'no' => $FALSE,
+	'No' => $FALSE,
 	'0' => $FALSE,
 	'on' => $TRUE,
+	'On' => $TRUE,
 	'true' => $TRUE,
+	'True' => $TRUE,
 	'TRUE' => $TRUE,
 	'yes' => $TRUE,
+	'Yes' => $TRUE,
 	'1' => $TRUE,
 );
 
